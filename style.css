@@ -1,0 +1,91 @@
+body {
+    background-color: yellowgreen;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 8vh;
+}
+
+h2 {
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 3vh;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.score-1,
+.score-2 {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    height: 18vh;
+    width: 18vh;
+    display: flex;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 60vh;
+}
+
+.tabl {
+    display: flex;
+    justify-content: center;
+}
+
+.mole {
+    background-image: url('img/mole.png');
+    background-size: cover;
+}
+
+.buttons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+button,
+button:active,
+button:focus {
+    background-color: yellow;
+    width: 25vh;
+    height: 8vh;
+    border-radius: 10vh;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border: 0px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4vh;
+    outline: none;
+    box-shadow: 0.1em 0.1em 2px rgba(122, 122, 122, 0.5);
+}
+
+img {
+    width: 120%;
+    height: 50%;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+.none {
+    display: none;
+}
